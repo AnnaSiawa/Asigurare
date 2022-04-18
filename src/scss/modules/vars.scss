@@ -26,8 +26,9 @@ $breakpoint-mobile-S: 360px;
 /*fonts*/
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
 sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-Roboto: Roboto, $font-family-sans-serif;
-$primaryFont: Montserrat;
+$font-Circe: Circe, $font-family-sans-serif;
+
+$primaryFont: $font-Circe;
 
 
 /*z-index*/

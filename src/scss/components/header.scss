@@ -10,17 +10,6 @@
   z-index: $position-header-block;
   @include main-style-text;
 
-  &__top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: $font-Roboto;
-    margin-bottom: 20px;
-
-    &_authorization {
-      display: flex;
-    }
-  }
 
   &__phone {
     display: flex;
@@ -75,7 +64,6 @@
     flex: 0 1 25%;
     position: relative;
     z-index: 3;
-    font-family: $font-Roboto;
     @media all and (min-width: $breakpoint-tablet-L) {
       flex: 0 1 85%;
     }
