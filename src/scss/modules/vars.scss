@@ -4,7 +4,7 @@ $font-size-title1-desktop: 76px;
 $font-size-p: 22px;
 
 
-$color-white: rgba(255, 255, 255, 1);
+
 $color-text: rgba(52, 56, 61, 1);
 $color-text-menu: rgba(52, 56, 61, 0.6);
 $color-button: rgba(205, 168, 97, 1);
@@ -14,10 +14,33 @@ $color-p: rgba(52, 56, 61, 1);
 $color-slider-background1: #F2F1F1;
 /////////////////////////////////////////////////////////////////
 
+// font-size
+$font-size-h1: 39px;
+$font-size-h1-desktop: 90px;
+$font-size-disc: 12px;
+$font-size-disc-desktop: 18px;
+$font-size-button-calc: 19px;
+$font-size-button-calc-desktop: 26px;
+
+//color
 $color-red: #EB242A;
+$color-gray: rgba(145, 145, 145, 0.1);
+$color-blue: #299EF3;
+$color-lite-gray: #94A2B3;
+$color-white: rgba(255, 255, 255, 1);
+$color-dark-blue: #272D4E;
+
 
 $button-border: $color-red;
+$button-text: $color-red;
+$button-calc-background: $color-red;
+$button-calc-text: $color-white;
+$background-header: $color-gray;
+$color-link: $color-blue;
+$color-first-block-disc: $color-lite-gray;
 
+//animation
+$bulb: #fff78f;
 
   /*Width breakpoints*/
 $breakpoint-fullhd: 1860px;

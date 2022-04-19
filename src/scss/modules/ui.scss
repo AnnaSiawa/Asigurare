@@ -2,89 +2,42 @@
 @import "../modules/font.scss";
 @import "../modules/functions.scss";
 
-button {
-  cursor: pointer;
-  display: inline-block;
-  border-radius: 34px;
-  border: 1px solid $color-button;
-
-  font-family: $primaryFont;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 27px;
-  text-align: center;
-
-  transition: background-color 0.25s linear;
-  @media all and (min-width: $breakpoint-tablet-S) {
-    width: 220px;
-    height: 60px;
-  }
-}
-
-.button_currency {
-  background-color: $color-text;
+.btn-calc {
+  padding: 15.5px 29px;
+  border-radius: 43px;
+  background-color: $button-calc-background;
   color: $color-white;
-  display: none;
-  @media all and (min-width: $breakpoint-tablet-S) {
-    display: inline-block;
-    margin-right: 20px;
-  }
-}
-
-.button_account {
-  background-color: $color-button;
-}
-
-.button_product {
+  line-height: 22px;
+  font-weight: 700;
+  font-size: $font-size-button-calc;
   position: relative;
-  left: 50%;
-  transform: translate(-50%, 0);
-  background-color: $color-white;
-}
-
-.button_currency:hover {
-  background-color: #757779;
-}
-.button_account:hover {
-background-color: #957332;
-}
-.button_product:hover {
-  background-color: #b9b9b9;
-}
-
-.logo {
-  width: 135px;
-  height: 65px;
-  margin: 0 auto;
-
-  line-height: 70px;
-  background-color: $color-text;
-  color: $color-white;
-  text-align: center;
-  text-transform: uppercase;
-
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-
-  @media all and (min-width: $breakpoint-tablet-S) {
-    width: 200px;
-    height: 70px;
-    margin: 0;
+  z-index: 2;
+  @media screen and (min-width: $breakpoint-tablet-M) {
+    padding: 25px 73px;
+    font-size: $font-size-button-calc-desktop;
   }
 }
 
-p {
-  font-style: normal;
-  font-weight: 500;
-  font-size: $font-size-p;
-  line-height: 26px;
-  margin-bottom: 20px;
-  color: $color-p;
-  @media all and (min-width: $breakpoint-desktop-S) {
-    //width: 489px;
-    margin-bottom: 54px;
-  }
+a {
+  color: $color-text;
+  text-decoration: none;
+  cursor: pointer;
+
+  //&:hover {
+  //  color: $color-text;
+  //  text-decoration: none;
+  //}
+}
+
+.link {
+  color: $color-link;
+  line-height: 21px;
+  font-weight: 700;
+  text-decoration: underline;
+  position: relative;
+  z-index: 2;
+}
+.link-phone {
+  color: $button-text;
 }
 
